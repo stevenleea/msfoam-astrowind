@@ -1,14 +1,14 @@
 # 🚀 AstroWind
 
-<img src="https://raw.githubusercontent.com/onwidget/.github/main/resources/astrowind/lighthouse-score.png" align="right"
+<img src="https://raw.githubusercontent.com/arthelokyo/.github/main/resources/astrowind/lighthouse-score.png" align="right"
      alt="AstroWind Lighthouse Score" width="100" height="358">
 
-🌟 _Most *starred* & *forked* Astro theme in 2022 & 2023_. 🌟
+🌟 _Most *starred* & *forked* Astro theme in 2022, 2023, 2024 & 2025_. 🌟
 
-**AstroWind** is a free and open-source template to make your website using **[Astro 4.0](https://astro.build/) + [Tailwind CSS](https://tailwindcss.com/)**. Ready to start a new project and designed taking into account web best practices.
+**AstroWind** is a free and open-source template to make your website using **[Astro v6](https://astro.build/) + [Tailwind CSS v4](https://tailwindcss.com/)**. Ready to start a new project and designed taking into account web best practices.
 
 - ✅ **Production-ready** scores in **PageSpeed Insights** reports.
-- ✅ Integration with **Tailwind CSS** supporting **Dark mode** and **_RTL_**.
+- ✅ Integration with **Tailwind CSS v4** supporting **Dark mode** and **_RTL_**.
 - ✅ **Fast and SEO friendly blog** with automatic **RSS feed**, **MDX** support, **Categories & Tags**, **Social Share**, ...
 - ✅ **Image Optimization** (using new **Astro Assets** and **Unpic** for Universal image CDN).
 - ✅ Generation of **project sitemap** based on your routes.
@@ -17,15 +17,15 @@
 
 <br>
 
-<img src="https://raw.githubusercontent.com/onwidget/.github/main/resources/astrowind/screenshot-astrowind-1.png" alt="AstroWind Theme Screenshot">
+![AstroWind Theme Screenshot](https://raw.githubusercontent.com/arthelokyo/.github/main/resources/astrowind/screenshot-astrowind-readme-fina-v1.png)
 
-[![onWidget](https://custom-icon-badges.demolab.com/badge/made%20by%20-onWidget-556bf2?style=flat-square&logo=onwidget&logoColor=white&labelColor=101827)](https://onwidget.com)
-[![License](https://img.shields.io/github/license/onwidget/astrowind?style=flat-square&color=dddddd&labelColor=000000)](https://github.com/onwidget/astrowind/blob/main/LICENSE.md)
-[![Maintained](https://img.shields.io/badge/maintained%3F-yes-brightgreen.svg?style=flat-square)](https://github.com/onwidget)
-[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/onwidget/astrowind#contributing)
-[![Known Vulnerabilities](https://snyk.io/test/github/onwidget/astrowind/badge.svg?style=flat-square)](https://snyk.io/test/github/onwidget/astrowind)
-[![Stars](https://img.shields.io/github/stars/onwidget/astrowind.svg?style=social&label=stars&maxAge=86400&color=ff69b4)](https://github.com/onwidget/astrowind)
-[![Forks](https://img.shields.io/github/forks/onwidget/astrowind.svg?style=social&label=forks&maxAge=86400&color=ff69b4)](https://github.com/onwidget/astrowind)
+[![arthelokyo](https://custom-icon-badges.demolab.com/badge/made%20by%20-arthelokyo-556bf2?style=flat-square&logo=arthelokyo&logoColor=white&labelColor=101827)](https://github.com/arthelokyo)
+[![License](https://img.shields.io/github/license/arthelokyo/astrowind?style=flat-square&color=dddddd&labelColor=000000)](https://github.com/arthelokyo/astrowind/blob/main/LICENSE.md)
+[![Maintained](https://img.shields.io/badge/maintained%3F-yes-brightgreen.svg?style=flat-square)](https://github.com/arthelokyo)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/arthelokyo/astrowind#contributing)
+[![Known Vulnerabilities](https://snyk.io/test/github/arthelokyo/astrowind/badge.svg?style=flat-square)](https://snyk.io/test/github/arthelokyo/astrowind)
+[![Stars](https://img.shields.io/github/stars/arthelokyo/astrowind.svg?style=social&label=stars&maxAge=86400&color=ff69b4)](https://github.com/arthelokyo/astrowind)
+[![Forks](https://img.shields.io/github/forks/arthelokyo/astrowind.svg?style=social&label=forks&maxAge=86400&color=ff69b4)](https://github.com/arthelokyo/astrowind)
 
 <br>
 
@@ -34,13 +34,13 @@
 
 - [Demo](#demo)
 - [Upcoming: AstroWind 2.0 – We Need Your Vision!](#-upcoming-astrowind-20--we-need-your-vision)
+- [TL;DR](#tldr)
 - [Getting started](#getting-started)
   - [Project structure](#project-structure)
   - [Commands](#commands)
   - [Configuration](#configuration)
   - [Deploy](#deploy)
 - [Frequently Asked Questions](#frequently-asked-questions)
-- [Related Projects](#related-projects)
 - [Contributing](#contributing)
 - [Acknowledgements](#acknowledgements)
 - [License](#license)
@@ -57,19 +57,25 @@
 
 ## 🔔 Upcoming: AstroWind 2.0 – We Need Your Vision!
 
-We're embarking on an exciting journey with **AstroWind 2.0**, and we want you to be a part of it! We're currently taking the first steps in developing this new version and your insights are invaluable. Join the discussion and share your feedback, ideas, and suggestions to help shape the future of **AstroWind**. Let's make **AstroWind 2.0** even better, together!
+We're gearing up for **AstroWind 2.0**, and we want it to be shaped by you, our community. Join the discussion and share your ideas, suggestions, and feedback to help us make AstroWind even better.
 
-[Share Your Feedback in Our Discussion!](https://github.com/onwidget/astrowind/discussions/392)
+[Share Your Feedback in Our Discussion!](https://github.com/arthelokyo/astrowind/discussions/392)
 
 <br>
 
+## TL;DR
+
+```shell
+npm create astro@latest -- --template arthelokyo/astrowind
+```
+
 ## Getting started
 
-**AstroWind** tries to give you quick access to creating a website using [Astro 4.0](https://astro.build/) + [Tailwind CSS](https://tailwindcss.com/). It's a free theme which focuses on simplicity, good practices and high performance.
+**AstroWind** tries to give you quick access to creating a website using [Astro v6](https://astro.build/) + [Tailwind CSS v4](https://tailwindcss.com/). It's a free theme which focuses on simplicity, good practices and high performance.
 
 Very little vanilla javascript is used only to provide basic functionality so that each developer decides which framework (React, Vue, Svelte, Solid JS...) to use and how to approach their goals.
 
-In this version the template supports all the options in the `output` configuration, `static`, `hybrid` and `server`, but the blog only works with `prerender = true`. We are working on the next version and aim to make it fully compatible with SSR.
+> **Note:** Requires **Node.js >= 22.12.0**. The template currently uses `output: 'static'`, but the blog only works with `prerender = true`.
 
 ### Project structure
 
@@ -96,12 +102,12 @@ Inside **AstroWind** template, you'll see the following folders and files:
 │   │   ├── CustomStyles.astro
 │   │   ├── Favicons.astro
 │   │   └── Logo.astro
-│   ├── content/
-│   │   ├── post/
-│   │   │   ├── post-slug-1.md
-│   │   │   ├── post-slug-2.mdx
-│   │   │   └── ...
-│   │   └-- config.ts
+│   ├── content.config.ts
+│   ├── data/
+│   │   └── post/
+│   │       ├── post-slug-1.md
+│   │       ├── post-slug-2.mdx
+│   │       └── ...
 │   ├── layouts/
 │   │   ├── Layout.astro
 │   │   ├── MarkdownLayout.astro
@@ -120,7 +126,7 @@ Inside **AstroWind** template, you'll see the following folders and files:
 │   ├── config.yaml
 │   └── navigation.js
 ├── package.json
-├── astro.config.mjs
+├── astro.config.ts
 └── ...
 ```
 
@@ -130,7 +136,7 @@ There's nothing special about `src/components/`, but that's where we like to put
 
 Any static assets, like images, can be placed in the `public/` directory if they do not require any transformation or in the `assets/` directory if they are imported directly.
 
-[![Edit AstroWind on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://githubbox.com/onwidget/astrowind/tree/main) [![Open in Gitpod](https://svgshare.com/i/xdi.svg)](https://gitpod.io/?on=gitpod#https://github.com/onwidget/astrowind) [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/onwidget/astrowind)
+[![Edit AstroWind on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://githubbox.com/arthelokyo/astrowind/tree/main) [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/arthelokyo/astrowind)
 
 > 🧑‍🚀 **Seasoned astronaut?** Delete this file `README.md`. Update `src/config.yaml` and contents. Have fun!
 
@@ -140,15 +146,15 @@ Any static assets, like images, can be placed in the `public/` directory if they
 
 All commands are run from the root of the project, from a terminal:
 
-| Command               | Action                                             |
-| :-------------------- | :------------------------------------------------- |
-| `npm install`         | Installs dependencies                              |
-| `npm run dev`         | Starts local dev server at `localhost:3000`        |
-| `npm run build`       | Build your production site to `./dist/`            |
-| `npm run preview`     | Preview your build locally, before deploying       |
-| `npm run format`      | Format codes with Prettier                         |
-| `npm run lint:eslint` | Run Eslint                                         |
-| `npm run astro ...`   | Run CLI commands like `astro add`, `astro preview` |
+| Command             | Action                                             |
+| :------------------ | :------------------------------------------------- |
+| `npm install`       | Installs dependencies                              |
+| `npm run dev`       | Starts local dev server at `localhost:4321`        |
+| `npm run build`     | Build your production site to `./dist/`            |
+| `npm run preview`   | Preview your build locally, before deploying       |
+| `npm run check`     | Check your project for errors                      |
+| `npm run fix`       | Run Eslint and format codes with Prettier          |
+| `npm run astro ...` | Run CLI commands like `astro add`, `astro preview` |
 
 <br>
 
@@ -235,10 +241,10 @@ ui:
 
 #### Customize Design
 
-To customize Font families, Colors or more Elements refer to the following files:
+With Tailwind CSS v4, all configuration is CSS-first. To customize Font families, Colors or more Elements refer to the following files:
 
-- `src/components/CustomStyles.astro`
-- `src/assets/styles/tailwind.css`
+- `src/components/CustomStyles.astro` — CSS variables for colors and fonts
+- `src/assets/styles/tailwind.css` — Tailwind theme tokens (`@theme`), custom utilities (`@utility`), and plugins
 
 ### Deploy
 
@@ -256,15 +262,21 @@ prefer.
 
 #### Deploy to Netlify
 
-Clone this repository on own GitHub account and deploy to Netlify:
+Clone this repository on your own GitHub account and deploy it to Netlify:
 
-[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/onwidget/astrowind)
+[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/arthelokyo/astrowind)
 
 #### Deploy to Vercel
 
-Clone this repository on own GitHub account and deploy to Vercel:
+Clone this repository on your own GitHub account and deploy to Vercel:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fonwidget%2Fastrowind)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Farthelokyo%2Fastrowind)
+
+#### Deploy to PandaStack
+
+Clone this repository on your own GitHub account and deploy to PandaStack:
+
+[![Deploy to PandaStack](https://dashboard.pandastack.io/deploy-button.svg)](https://dashboard.pandastack.io/deploy?repo=arthelokyo/astrowind&type=static&buildCmd=npm+run+build&outputDir=dist)
 
 <br>
 
@@ -276,19 +288,14 @@ Clone this repository on own GitHub account and deploy to Vercel:
 
 <br>
 
-## Related projects
-
-- [TailNext](https://tailnext.vercel.app/) - Free template using Next.js 14 and Tailwind CSS with the new App Router.
-- [Qwind](https://qwind.pages.dev/) - Free template to make your website using Qwik + Tailwind CSS.
-
 ## Contributing
 
-If you have any idea, suggestions or find any bugs, feel free to open a discussion, an issue or create a pull request.
+If you have any ideas, suggestions or find any bugs, feel free to open a discussion, an issue or create a pull request.
 That would be very useful for all of us and we would be happy to listen and take action.
 
 ## Acknowledgements
 
-Initially created by [onWidget](https://onwidget.com) and maintained by a community of [contributors](https://github.com/onwidget/astrowind/graphs/contributors).
+Initially created by **Arthelokyo** and maintained by a community of [contributors](https://github.com/arthelokyo/astrowind/graphs/contributors).
 
 ## License
 
